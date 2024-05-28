@@ -1,0 +1,72 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+
+  background-image: url('https://media.giphy.com/media/W0RPj8pyB2xvTnqUT0/giphy.gif');
+  background-position: center;
+  background-size: cover;
+}
+
+.layout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  /* Flexbox for default layout */
+  flex-direction: row;
+
+  transition: 0.3s;
+}
+
+.left, .right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 40%;
+  width: 30%;
+
+  backdrop-filter: blur(10px) saturate(144%);
+  -webkit-backdrop-filter: blur(10px) saturate(144%);
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 12px;
+  border: 2px solid rgb(170, 45, 233);
+  color: rgb(208, 75, 210);
+}
+
+a {
+  margin-top: 10px;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    height: 20%;
+    width: 80%;
+  }
+}
