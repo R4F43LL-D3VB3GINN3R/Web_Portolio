@@ -1,0 +1,228 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+  }
+  
+  h2 {
+    border-bottom: 2px solid rgb(170, 45, 233);
+    border-right: 2px solid rgb(170, 45, 233);
+    border-top: 2px solid rgb(170, 45, 233);
+    border-left: 2px solid rgb(170, 45, 233);
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  h2:hover {
+    border-bottom: 5px solid rgb(170, 45, 233);
+    border-right: 10px solid rgb(170, 45, 233);
+    border-top: 2px solid rgb(170, 45, 233);
+    border-left: 2px solid rgb(170, 45, 233);
+  }
+  
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+        
+    width: 100%;
+    height: 100vh;
+  
+    background-image: url('../Imgs/background.gif');
+    background-size: cover;
+  
+  }
+  
+  .personal {
+  
+      backdrop-filter: blur(10px) saturate(144%);
+      -webkit-backdrop-filter: blur(10px) saturate(144%);
+      background-color: black;
+      opacity: 0.8;
+      border-radius: 12px;
+  
+      width: 90%;
+      height: 100%;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      padding: 15px;
+      margin: 5px;
+      color: rgb(170, 45, 233);
+
+      transition: 0.3s;
+  }  
+
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+  }
+
+  #Hide {
+    background-color: black;
+    border-bottom: 2px solid rgb(170, 45, 233);  
+    border-left: 2px solid rgb(170, 45, 233);  
+    border-right: 2px solid rgb(170, 45, 233);  
+    width: 100px;
+    height: 5px;
+    cursor: pointer;
+    transition: 0.8;
+  }
+  
+  
+  .projects {
+  
+    opacity: 0.8;
+    transition: 0.3s;
+    border-radius: 12px;
+  
+    width: 65%;
+    height: 100%;
+  
+  }
+  
+  .projects:hover {
+    opacity: 1;
+  }
+  
+  .personal:hover {
+    opacity: 1;
+    border-bottom: 5px solid rgb(200, 133, 233);
+    border-right: 5px solid rgb(200, 133, 233);
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(170, 45, 233);
+    padding: 10px;
+  }
+  
+  .icon {
+    border-radius: 30%;
+    border: 2px solid rgb(170, 45, 233);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .icon:hover {
+    border: 4px solid rgb(170, 45, 233);
+    height: 35px;
+    width: 35px;
+  }
+  
+  .row1, .row2, .row3 {
+    height: 300px;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+  
+    padding: 5px;
+  }
+  
+  .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9 {
+    background-color: black;
+    opacity: 0.9;
+    width: 300px;
+    height: 100%;
+    border-radius: 10px;
+    border: 5px solid rgb(97, 10, 140);
+    transition: 0.3s;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    color: rgb(97, 10, 140)
+  }
+  
+  .div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover, .div7:hover, .div8:hover, .div9:hover {
+    opacity: 1;
+    border: 5px solid rgb(170, 45, 233);
+    color:rgb(200, 133, 233);
+  }
+
+  .div1:hover .img1 {
+    border: 4px solid rgb(200, 133, 233);
+  }
+  
+  .div2:hover .img1 {
+    border: 4px solid rgb(200, 133, 233);
+  }
+
+  .div3:hover .img1 {
+    border: 4px solid rgb(200, 133, 233);
+  }
+
+  .div4:hover .img1 {
+    border: 4px solid rgb(200, 133, 233);
+  }
+
+  .div5:hover .img1 {
+    border: 4px solid rgb(200, 133, 233);
+  }
+
+  .div6:hover .img1 {
+    border: 4px solid rgb(200, 133, 233);
+  }
+
+  .div7:hover .img1 {
+    border: 4px solid rgb(200, 133, 233);
+  }
+
+  .div8:hover .img1 {
+    border: 4px solid rgb(200, 133, 233);
+  }
+
+  .div9:hover .img1 {
+    border: 4px solid rgb(200, 133, 233);
+  }
+  
+  .img1 {
+    width: 220px;
+    height: 150px;
+    border: 2px solid rgb(200, 133, 233);
+    border-radius: 10px;
+  }
+  
+  .icon1 {
+    border-radius: 30%;
+    border: 2px solid rgb(170, 45, 233);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .icon1:hover {
+    border: 4px solid rgb(170, 45, 233);
+    height: 35px;
+    width: 35px;
+  }
+  
+  #imgcard{
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 150px;
+  }
